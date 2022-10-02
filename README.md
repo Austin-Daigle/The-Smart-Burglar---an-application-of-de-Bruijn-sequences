@@ -10,7 +10,7 @@ This project was orignally designed and writtein in Fall 2020.
 *  [The Java Program](#javaprogram)
 *  [The 10,003 digits](#10003Digits)
 *  [Conclusion (TLDR)](#conclusion)
-*  [Works Cited](worksCited)
+*  [Works Cited](workscited)
 
 
 
@@ -275,7 +275,7 @@ The hypothetical burglar must compile and execute [TheCleverBurglar.java](https:
 
 [Back to top](#top)
 
-## <a name="worksCited"></a>Works Cited:
+## <a name="workscited"></a>Works Cited:
 
 Berry, Nick. De Bruijn Sequences, DataGenetics, 2013, [https://datagenetics.com/blog/october22013/index.html](https://datagenetics.com/blog/october22013/index.html).
 
