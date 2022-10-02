@@ -26,4 +26,12 @@ As mentioned above, the Lyndon words algorithm operates on the smallest string o
 ![image](https://user-images.githubusercontent.com/100094056/193476331-02e86577-370d-4f85-931a-5c2c37d4ec70.png)
 
 
+The following theorem was directly referenced from _A fast algorithm to generate necklaces with fixed content_ by Joe Sawada as the referenced core that derived the algorithm that was converted and eventually coded into Java. 
 
+A note for the reader: I do not claim credit for the original algorithm, but instead, I cited the author and source material, and I instead created a derivative adaptation based on the source work, some changes were made from the original function and the Java adaption to correct for the limitation and nuances within the Java programming language.
+
+![image](https://user-images.githubusercontent.com/100094056/193476484-c7834223-48b3-4877-a192-e510fd76f096.png)
+
+Using the algorithm given from the reference above, it is possible to convert it to a recursive algorithmic runtime with similar variables to the original theorem (Sawada). The method shown above can be described as a statement of: if α is representative of a pre-necklace with the function of _p = lyn(α)_, then α can be necklace if it has a _n modulus_ of _p_ that is equivalent to zero and it shares the relation of _n_ is directly equal to _p_ concurrently; then _theorem 1_ from above can be said to be true, and the necklace (or selected characters) can be added or printed out to the sequence. The string object (or array object) remains constant, assuming the dictionary (k-value) remains constant for the purpose of alternation and computation. _Theorem 1_, in application, will recurse multiple times until each subroutine is complete without anymore stack (or user) recursion calls to itself; this function does not feature “break” statements or user-stop base cases in this algorithm to terminate this process.
+
+Below is the adapted pseudocode from the first revision of pseudocode from _Theorem 1_ from the cited text (Sawada); some changes have been made to the pseudocode below to allow for capability with the java adaptation.
