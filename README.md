@@ -37,6 +37,7 @@ Using the algorithm given from the reference above, it is possible to convert it
 Below is the adapted pseudocode from the first revision of pseudocode from _Theorem 1_ from the cited text (Sawada); some changes have been made to the pseudocode below to allow for capability with the java adaptation.
 
 
+### Pseudocode adapted from _Theorem 1_
 	procedure simpleFixedContent( t, p: integer)
 	Local j: integer
 	Begin
