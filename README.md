@@ -89,7 +89,7 @@ On a final note with the final Java adaption, the primary change that was implem
 [Back to top](#top)
 
 ## <a name="javaprogram"></a>The Java Program: TheCleverBurglar.java:
-[TheCleverBurglar.java](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/blob/main/TheCleverBurglar.java)
+Source Code: [TheCleverBurglar.java](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/blob/main/TheCleverBurglar.java)
 
 	import java.util.ArrayList;
 	public class smartBurglar {
