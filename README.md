@@ -154,7 +154,10 @@ On a final note with the final Java adaption, the primary change that was implem
 	9699769986999777787779778877897798779978787978887889789878997979887989799879998888988998989999000
 
 
-## The Algorithm Written in Java
+## TheCleverBurglar.java: The Algorithm adapted into the Java programming language:
+[TheCleverBurglar.java](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/blob/main/TheCleverBurglar.java)
+
+
 	import java.util.ArrayList;
 	public class smartBurglar {
 		public static String makeDeBruijnSequence(int k, int n) 
