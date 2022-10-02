@@ -281,6 +281,6 @@ Berry, Nick. De Bruijn Sequences, DataGenetics, 2013, [https://datagenetics.com/
 
 Berstel, Jean, and Dominique Perrin. “The Origins of Combinatorics on Words.” European Journal of Combinatorics, Academic Press, 15 Dec. 2005,   [www.sciencedirect.com/science/article/pii/S0195669805001629](https://www.sciencedirect.com/science/article/pii/S0195669805001629).
 
-Sawada, Joe. A Fast Algorithm to Generate Necklaces with Fixed Content. CORE, Department of Computer Science, University of Toronto, 2003, [core.ac.uk/reader/82247950](core.ac.uk/reader/82247950).
+Sawada, Joe. A Fast Algorithm to Generate Necklaces with Fixed Content. CORE, Department of Computer Science, University of Toronto, 2003, [core.ac.uk/reader/82247950](https://core.ac.uk/outputs/82247950).
 
 [Back to top](#top)
