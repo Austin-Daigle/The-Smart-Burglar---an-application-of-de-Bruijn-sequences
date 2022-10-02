@@ -10,7 +10,7 @@ This project was orignally designed and writtein in Fall 2020.
 *  [The Java Program](#javaprogram)
 *  [The 10,003 digits](#10003Digits)
 *  [Conclusion (TLDR)](#conclusion)
-*  [Works Cited](workscited)
+*  [Works Cited](#workscited)
 
 
 
