@@ -1,1 +1,1 @@
-# The-Smart-Burglar---an-application-of-de-Bruijn-sequences
+# The Smart Burglar: an application of De Bruijn sequences
