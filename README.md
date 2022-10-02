@@ -251,7 +251,7 @@ On a final note with the final Java adaption, the primary change that was implem
 
 ## Works Cited:
 
-Berry, Nick. De Bruijn Sequences, DataGenetics, 2013, [datagenetics.com/blog/october22013/index.html](datagenetics.com/blog/october22013/index.html).
+Berry, Nick. De Bruijn Sequences, DataGenetics, 2013, [https://datagenetics.com/blog/october22013/index.html](https://datagenetics.com/blog/october22013/index.html).
 
 Berstel, Jean, and Dominique Perrin. “The Origins of Combinatorics on Words.” European Journal of Combinatorics, Academic Press, 15 Dec. 2005, [www.sciencedirect.com/science/article/pii/S0195669805001629](www.sciencedirect.com/science/article/pii/S0195669805001629).
 
