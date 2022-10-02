@@ -6,10 +6,10 @@ This project was orignally designed and writtein in Fall 2020.
 *  [Introduction](#intro)
 *  [Background](#background)
 *  [Pseudocode](#pseudocode)
-*  [The original Algorithm](#algorithm)
+*  [The Original Algorithm](#algorithm)
 *  [The Java Program](#javaprogram)
-*  [The 10,003 digits](#10003Digits)
-*  [Conclusion (TLDR)](#conclusion)
+*  [The 10,003 Digits](#10003Digits)
+*  [Conclusion (tl;dr)](#conclusion)
 *  [Works Cited](#workscited)
 
 
