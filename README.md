@@ -1,4 +1,5 @@
 #<a name = "top"></a>The Smart Burglar: an application of De Bruijn sequences
+
 This project was orignally designed and writtein in Fall 2020.
 
 ## Table Of Contents:
@@ -276,6 +277,8 @@ The hypothetical burglar must compile and execute [TheCleverBurglar.java](https:
 [Back to top](#top)
 
 ## <a name="workscited"></a>Works Cited:
+
+NOTE: all of these sources are also available in this [repo directory](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/tree/main/Backed%20Up%20Sources) as .pdf in case these websites go offline.
 
 Berry, Nick. De Bruijn Sequences, DataGenetics, 2013, [https://datagenetics.com/blog/october22013/index.html](https://datagenetics.com/blog/october22013/index.html).
 
