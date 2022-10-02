@@ -248,6 +248,9 @@ On a final note with the final Java adaption, the primary change that was implem
 	8966976698669967676867696777677867796787678867896797679867996868696877687868796887688868896897689868996969776978697969876988698
 	9699769986999777787779778877897798779978787978887889789878997979887989799879998888988998989999000
 
+## Conclusion:
+
+The hypothetical burglar must compile and execute [TheCleverBurglar.java](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/blob/main/TheCleverBurglar.java) and would haft to record the 10,003 digits from the program output. The burglar would approach the keypad and enter the 10,003 digits in a continuous stream (a significant improvement over 40,000 digits), and then the keypad lock will open for the burglar. 
 
 ## Works Cited:
 
