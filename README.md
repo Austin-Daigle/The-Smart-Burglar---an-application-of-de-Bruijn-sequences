@@ -17,7 +17,7 @@ This project was orignally designed and writtein in Fall 2020.
 ##  <a name="abstract"></a>Abstract:
 This project's focus is to develop an algorithmic process to create a string of 10,003 numerical characters that tests all possible combinations on a four-digit (zero through nine) electronic combination lock. The advantage of this process would save an enormous amount of time when testing hardware or gaining unauthorized access into secured equipment or locations; because, instead of entering 40,000 characters to test all 10,000 possible combinations, you would instead only need to enter 10,003 characters; thus, increasing your efficiency by nearly three-fold (Berry).
 
-[back to top](#top)
+[Back to top](#top)
 
 ## <a name="intro"></a>Introduction:
 
@@ -34,7 +34,7 @@ De Bruijn sequences can be synthesized using a variety of algorithms and methods
 
 A Lyndon Word is a string that is populated (non-empty) and is exactly smaller than all of the lexicographic (or, in this case, the order of a pre-ordered set) of all of the rotations of a given dictionary string (Sawada). The Lyndon Words string will be used to rotate through the dictionary string for this process and then augment the final result to construct the desired De-Bruijn string. The subsequent string can be deconstructed to analyze and verify the result, and in application, fulfill the requirements of solving for all possible combinations (Berstel).
 
-[back to top](#top)
+[Back to top](#top)
 
 ## <a name="background"></a>Background:
 As mentioned above, the Lyndon words algorithm operates on the smallest string object that is lexicographically equivalent to the _k_\-dictionary string. These strings are called “necklaces.” Logically speaking, an aperiodic form of a _necklace_ would equal a _Lyndon word_. The object is to extract the Lyndon Words from the input to generate the De-Bruijn sequence upon each recursion, view Table B and Table C below to see a representation of the process above.
@@ -54,7 +54,7 @@ Using the algorithm given from the reference above, it is possible to convert it
 
 Below is the adapted pseudocode from the first revision of pseudocode from _Theorem 1_ from the cited text (Sawada); some changes have been made to the pseudocode below to allow for capability with the java adaptation.
 
-[back to top](#top)
+[Back to top](#top)
 
 ### <a name="pseudocode"></a>Pseudocode adapted from _Theorem 1_
 	procedure simpleFixedContent( t, p: integer)
@@ -179,6 +179,8 @@ On a final note with the final Java adaption, the primary change that was implem
 		}
 	}
 
+[Back to top](#top)
+
 ## <a name="10003Digits"></a>The 10,003 Digits:
 
 	0000100020003000400050006000700080009001100120013001400150016001700180019002100220023002400250026002700280029003100320033003400
@@ -261,9 +263,13 @@ On a final note with the final Java adaption, the primary change that was implem
 	8966976698669967676867696777677867796787678867896797679867996868696877687868796887688868896897689868996969776978697969876988698
 	9699769986999777787779778877897798779978787978887889789878997979887989799879998888988998989999000
 
+[Back to top](#top)
+
 ## <a name = "conclusion"></a>Conclusion:
 
 The hypothetical burglar must compile and execute [TheCleverBurglar.java](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/blob/main/TheCleverBurglar.java) and would haft to record the 10,003 digits from the program output. The burglar would approach the keypad and enter the 10,003 digits in a continuous stream (a significant improvement over 40,000 digits), and then the keypad lock will open for the burglar. 
+
+[Back to top](#top)
 
 ## <a name="worksCited"></a>Works Cited:
 
@@ -272,3 +278,5 @@ Berry, Nick. De Bruijn Sequences, DataGenetics, 2013, [https://datagenetics.com/
 Berstel, Jean, and Dominique Perrin. “The Origins of Combinatorics on Words.” European Journal of Combinatorics, Academic Press, 15 Dec. 2005, [www.sciencedirect.com/science/article/pii/S0195669805001629](www.sciencedirect.com/science/article/pii/S0195669805001629).
 
 Sawada, Joe. A Fast Algorithm to Generate Necklaces with Fixed Content. CORE, Department of Computer Science, University of Toronto, 2003, [core.ac.uk/reader/82247950](core.ac.uk/reader/82247950).
+
+[Back to top](#top)
