@@ -234,7 +234,8 @@ On a final note with the final Java adaption, the primary change that was implem
 				}
 				else
 				{
-					System.out.println("The De-Bruijn Sequence has been generated and verified to match all of the combinations:");
+					System.out.println("The De-Bruijn Sequence has been generated and verified "
+					+"to match all of the combinations:");
 					System.out.println(deBruijnSequence);
 				}
 			}
