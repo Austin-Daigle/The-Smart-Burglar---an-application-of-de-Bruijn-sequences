@@ -76,6 +76,8 @@ Below is the adapted pseudocode from the first revision of pseudocode from _Theo
 		endElse;
 	end;
 
+[Back to top](#top)
+
 ## <a name="algorithm"></a>The Original Algorithm:
 
 The algorithm that will be adapted into Java is derived from Theorem 1 (see above) with a few modifications (further modifications will be taken to necessitate the conversion to Java). This algorithm's primary concept is to repeatedly and recursively extend pre-necklaces until they equal the length of _n_ (Sawada). The pre-necklaces that are not necklaces will not be extended into the final sequence. The general process starts upon execution; local variables and parameters are initialized. The value of _t_ and _p_ are declared to the value of 1 (at they are variables for the purpose of controlling the alternation and assignments of data to/from the pre-necklace object (sized at _n_+1)). The first if statement within the algorithm evaluates whether the value of _t_ is greater than the value of _a.length-1_ (one minus the pre-necklace object); when true, then a second if statement is evaluated. The second if statement checks to see if the value of the modulus of (_a.length-1_) and _p_ equals zero, if true, then for every value from 1 to (_p+1_) append the final output by the given character present in _a_ at the value of the for loop at that iteration.
@@ -83,6 +85,8 @@ The algorithm that will be adapted into Java is derived from Theorem 1 (see abov
 If the root if statement evaluates to false, then the else statement will execute the following process: change the current numerical value at index value _t_ in the object _a_ to the current value index value of _t-p_ in _a_ (this part is one section that changes the value in the pre-necklace object for the sake of rotation)_,_ then call a recursion of the algorithm with all of the current value but augment the value of _t_ by 1, then for each value between ((the current numerical value of _a_ at the index of _t-p_) plus 1) to _k-1_: change the present value of _a_ at the index of the value of _j_ and also recurse the whole algorithm but with the value of _t_ incremented by 1. This algorithm terminates when each “parent” and “child” execute and complete their respective subroutines to completion until no other recursions are called, and all called processes are exhausted (Sawada).
 
 On a final note with the final Java adaption, the primary change that was implemented to make the function work was to have a post-process subroutine that adds _n-2_ zeroes to the end of the De Bruijn sequence to complete the “rollover.” Other changes were slight changes to the recursion calls, objects/variables used (to get around Java object limits), and a validation routine that cross-references all of the possible combinations to the Da-Bruijn (this is only enabled in the _n­_ = 4 and _k_ = 10 demo) and prints the final result.
+
+[Back to top](#top)
 
 ## <a name="javaprogram"></a>TheCleverBurglar.java: The Algorithm adapted into the Java programming language:
 [TheCleverBurglar.java](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/blob/main/TheCleverBurglar.java)
