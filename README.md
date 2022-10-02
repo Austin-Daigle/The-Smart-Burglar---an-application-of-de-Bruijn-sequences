@@ -1,13 +1,23 @@
-# The Smart Burglar: an application of De Bruijn sequences
+#<a name = "top"></a>The Smart Burglar: an application of De Bruijn sequences
 This project was orignally designed and writtein in Fall 2020.
 
 ## Table Of Contents:
-
+	* [Abstract](#abstract)
+	* [Introduction](#intro)
+	* [Background](#background)
+	* [Pseudocode](#pseudocode)
+	* [The original Algorithm](#algorithm)
+	* [The Java Program](#java program)
+	* [The 10,003 digits](#10003Digits)
+	* [Conclusion (TLDR)](#conclusion)
+	* [Works Cited](worksCited)
 
 
 
 ##  <a name="abstract"></a>Abstract:
 This project's focus is to develop an algorithmic process to create a string of 10,003 numerical characters that tests all possible combinations on a four-digit (zero through nine) electronic combination lock. The advantage of this process would save an enormous amount of time when testing hardware or gaining unauthorized access into secured equipment or locations; because, instead of entering 40,000 characters to test all 10,000 possible combinations, you would instead only need to enter 10,003 characters; thus, increasing your efficiency by nearly three-fold (Berry).
+
+[back to top](#top)
 
 ## <a name="intro"></a>Introduction:
 
@@ -23,6 +33,8 @@ The algorithm that will be used to solve this problem is called the De Bruijn Se
 De Bruijn sequences can be synthesized using a variety of algorithms and methods, the most common methods used are the Hamiltonian path, shift registers, the Eulerian cycle, and an Inverted Burrows-Wheelers function. However, the process that was implemented for this development was the Lyndon Words algorithm, this was chosen due to its ability to be relatively efficient yet straightforward (Berry).
 
 A Lyndon Word is a string that is populated (non-empty) and is exactly smaller than all of the lexicographic (or, in this case, the order of a pre-ordered set) of all of the rotations of a given dictionary string (Sawada). The Lyndon Words string will be used to rotate through the dictionary string for this process and then augment the final result to construct the desired De-Bruijn string. The subsequent string can be deconstructed to analyze and verify the result, and in application, fulfill the requirements of solving for all possible combinations (Berstel).
+
+[back to top](#top)
 
 ## <a name="background"></a>Background:
 As mentioned above, the Lyndon words algorithm operates on the smallest string object that is lexicographically equivalent to the _k_\-dictionary string. These strings are called “necklaces.” Logically speaking, an aperiodic form of a _necklace_ would equal a _Lyndon word_. The object is to extract the Lyndon Words from the input to generate the De-Bruijn sequence upon each recursion, view Table B and Table C below to see a representation of the process above.
@@ -42,6 +54,7 @@ Using the algorithm given from the reference above, it is possible to convert it
 
 Below is the adapted pseudocode from the first revision of pseudocode from _Theorem 1_ from the cited text (Sawada); some changes have been made to the pseudocode below to allow for capability with the java adaptation.
 
+[back to top](#top)
 
 ### <a name="pseudocode"></a>Pseudocode adapted from _Theorem 1_
 	procedure simpleFixedContent( t, p: integer)
