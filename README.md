@@ -35,3 +35,24 @@ A note for the reader: I do not claim credit for the original algorithm, but ins
 Using the algorithm given from the reference above, it is possible to convert it to a recursive algorithmic runtime with similar variables to the original theorem (Sawada). The method shown above can be described as a statement of: if α is representative of a pre-necklace with the function of _p = lyn(α)_, then α can be necklace if it has a _n modulus_ of _p_ that is equivalent to zero and it shares the relation of _n_ is directly equal to _p_ concurrently; then _theorem 1_ from above can be said to be true, and the necklace (or selected characters) can be added or printed out to the sequence. The string object (or array object) remains constant, assuming the dictionary (k-value) remains constant for the purpose of alternation and computation. _Theorem 1_, in application, will recurse multiple times until each subroutine is complete without anymore stack (or user) recursion calls to itself; this function does not feature “break” statements or user-stop base cases in this algorithm to terminate this process.
 
 Below is the adapted pseudocode from the first revision of pseudocode from _Theorem 1_ from the cited text (Sawada); some changes have been made to the pseudocode below to allow for capability with the java adaptation.
+
+
+	procedure simpleFixedContent( t, p: integer)
+	Local j: integer
+	Begin
+		If t > n then begin
+			If n mod p = 0 then
+				Print();
+			endIf;
+		endIf;
+		else begin
+			for j ∈ {at-p,…,k-2,k-1} do begin
+				at: = j;
+				if j := at-p then simpleFixedContent( t + 1 , p );
+				endIf;
+				else begin simpleFoxedContent( t + 1 , t );
+				endElse;
+			endFor;
+		endElse;
+	end;
+
