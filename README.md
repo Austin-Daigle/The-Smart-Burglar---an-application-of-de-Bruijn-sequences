@@ -2,15 +2,15 @@
 This project was orignally designed and writtein in Fall 2020.
 
 ## Table Of Contents:
-	* [Abstract](#abstract)
-	* [Introduction](#intro)
-	* [Background](#background)
-	* [Pseudocode](#pseudocode)
-	* [The original Algorithm](#algorithm)
-	* [The Java Program](#java program)
-	* [The 10,003 digits](#10003Digits)
-	* [Conclusion (TLDR)](#conclusion)
-	* [Works Cited](worksCited)
+*  [Abstract](#abstract)
+*  [Introduction](#intro)
+*  [Background](#background)
+*  [Pseudocode](#pseudocode)
+*  [The original Algorithm](#algorithm)
+*  [The Java Program](#javaprogram)
+*  [The 10,003 digits](#10003Digits)
+*  [Conclusion (TLDR)](#conclusion)
+*  [Works Cited](worksCited)
 
 
 
@@ -84,7 +84,7 @@ If the root if statement evaluates to false, then the else statement will execut
 
 On a final note with the final Java adaption, the primary change that was implemented to make the function work was to have a post-process subroutine that adds _n-2_ zeroes to the end of the De Bruijn sequence to complete the “rollover.” Other changes were slight changes to the recursion calls, objects/variables used (to get around Java object limits), and a validation routine that cross-references all of the possible combinations to the Da-Bruijn (this is only enabled in the _n­_ = 4 and _k_ = 10 demo) and prints the final result.
 
-## <a name="java program"></a>TheCleverBurglar.java: The Algorithm adapted into the Java programming language:
+## <a name="javaprogram"></a>TheCleverBurglar.java: The Algorithm adapted into the Java programming language:
 [TheCleverBurglar.java](https://github.com/Austin-Daigle/The-Smart-Burglar---an-application-of-de-Bruijn-sequences/blob/main/TheCleverBurglar.java)
 
 	import java.util.ArrayList;
