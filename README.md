@@ -249,3 +249,10 @@ On a final note with the final Java adaption, the primary change that was implem
 	9699769986999777787779778877897798779978787978887889789878997979887989799879998888988998989999000
 
 
+## Works Cited:
+
+Berry, Nick. De Bruijn Sequences, DataGenetics, 2013, datagenetics.com/blog/october22013/index.html.
+
+Berstel, Jean, and Dominique Perrin. “The Origins of Combinatorics on Words.” European Journal of Combinatorics, Academic Press, 15 Dec. 2005, www.sciencedirect.com/science/article/pii/S0195669805001629.
+
+Sawada, Joe. A Fast Algorithm to Generate Necklaces with Fixed Content. CORE, Department of Computer Science, University of Toronto, 2003, core.ac.uk/reader/82247950.
