@@ -1,5 +1,4 @@
-#<a name = "top"></a>
-# The Smart Burglar: an application of De Bruijn sequences
+# <a name = "top"></a> The Smart Burglar: an application of De Bruijn sequences
 
 This project was orignally designed and writtein in Fall 2020.
 
